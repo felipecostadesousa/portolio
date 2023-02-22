@@ -6,8 +6,10 @@
     --bg-cards: #302F3D;
     --bg-techs: #CB92B1;
     --border-color: #00FF00;
-  }
+}
 
 * {
     font-family: "Merriweather Sans";
+    background-color: var(--body-bg-color);
+    color: var(--text-color);
 }
