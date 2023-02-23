@@ -28,11 +28,6 @@ h2 {
     font-weight: 700;
 }
 
-h3 {
-    font-size: 0.813rem;
-    font-weight: 400;
-}
-
 .card {
     display: flex;
     align-items: center;
@@ -42,17 +37,25 @@ h3 {
     border-radius: 20px;
 }
 
+/* Projects Card Styles */
 
 #myProject-card {
     justify-content: space-between;
     width: 50%;
 }
 
+/* Posts Card Styles */
+
 #recentPosts-card {
     width: 50%;
     margin-top: 1rem;
 }
 
+#post {
+    width: 50%
+}
+
+/* Profile Card Styles */
 #profile-card {
     width: 20%;
     flex-direction: column;
@@ -64,6 +67,13 @@ h3 {
     border-color: var(--border-color);
 }
 
-#h3-profile-card {
-    margin-top: -0.5rem
+#profileName {
+    font-size: 1.438rem;
+    font-weight: 700;
+}
+
+#occupation-profile-card {
+    font-size: 0.813rem;
+    font-weight: 400;
+
 }
