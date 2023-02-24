@@ -38,6 +38,13 @@ h2 {
 }
 
 /* Projects Card Styles */
+.information {
+    align-items: center;
+}
+
+.information-icon {
+    filter: invert(69%) sepia(8%) saturate(5965%) hue-rotate(205deg) brightness(72%) contrast(66%);
+}
 
 #myProject-card {
     justify-content: space-between;
@@ -45,7 +52,6 @@ h2 {
 }
 
 /* Posts Card Styles */
-
 #recentPosts-card {
     width: 50%;
     margin-top: 1rem;
@@ -75,5 +81,15 @@ h2 {
 #occupation-profile-card {
     font-size: 0.813rem;
     font-weight: 400;
+}
 
+#informationProfile-card {
+    width: 20%;
+    flex-direction: column;
+    align-items: start;
+    justify-content: space-between;
+    height: 250px;
+    margin-top: 1rem;
+    margin-bottom: 1rem;
+    padding: 2rem;
 }
