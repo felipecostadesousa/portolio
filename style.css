@@ -51,18 +51,18 @@ h2 {
 
 #myProject-card {
     justify-content: space-between;
-    width: 90%;
+    width: 100%;
 }
 
 /* Posts Card Styles */
 #recentPosts-card {
-    width: 90%;
+    width:100%;
     margin-top: 1rem;
     margin-bottom: 1rem;
 }
 
 #post {
-    width: 90%
+    width: 100%
 }
 
 #post-title {
@@ -83,12 +83,11 @@ h2 {
 }
 
 #folder {
-    width: 40%;
+    width: 35%;
     display: flex;
     flex-direction: column;
     align-items: start;
     margin-top: 1rem;
-    margin-right: 5rem;
 }
 
 #git-status {
@@ -120,8 +119,10 @@ h2 {
 }
 
 #father-folder {
+    width: 100%;
     display: flex;
     justify-content: space-between;
+    padding: 1rem 2rem 1rem 2rem;
 }
 
 /* Profile Card Styles */
