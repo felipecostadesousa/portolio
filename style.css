@@ -51,7 +51,7 @@ h2 {
 
 #myProject-card {
     justify-content: space-between;
-    width: 100%;
+    width: 90%;
 }
 
 /* Posts Card Styles */
@@ -62,7 +62,7 @@ h2 {
 }
 
 #post {
-    width: 100%
+    width: 90%
 }
 
 #post-title {
@@ -88,6 +88,7 @@ h2 {
     flex-direction: column;
     align-items: start;
     margin-top: 1rem;
+    margin-right: 5rem;
 }
 
 #git-status {
